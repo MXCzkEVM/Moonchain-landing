@@ -1,3 +1,5 @@
+import { appConfig } from "@/configs/app.config";
+
 interface LogoProps<T extends React.ElementType = "div"> {
   className?: string;
   as?: T;
@@ -16,7 +18,7 @@ function Logo<T extends React.ElementType = "div">({
       }`}
       {...props}
     >
-      MOONCHAIN
+      {appConfig.logoText}
     </Component>
   );
 }
