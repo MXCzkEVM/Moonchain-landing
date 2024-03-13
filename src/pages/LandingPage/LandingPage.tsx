@@ -14,10 +14,11 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-
 import { MenuIcon } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { linksConfig } from "@/configs/links.config";
+import "./styles/moon.css";
+import "./styles/stars.css";
 
 const leftNavLinks = linksConfig.navLinks.slice(
   0,
@@ -29,8 +30,16 @@ const rightNavLinks = linksConfig.navLinks.slice(
 
 const LandingPage = () => {
   return (
-    <div className="h-screen flex flex-col dark:bg-slate-900 overflow-hidden">
-      <div className="h-[100px]">
+    <div className="relative h-dvh flex flex-col overflow-hidden">
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+
+      <div className="relative container">
+        <div className="absolute animated-moon w-[700px] h-[700px] -right-80 -top-14 sm:w-[750px] sm:h-[750px] sm:-right-52 sm:-top-20 lg:w-[800px] lg:h-[800px] lg:-right-52 lg:-top-20 xl:w-[1000px] xl:h-[1000px] xl:-right-60 xl:-top-40"></div>
+      </div>
+
+      <div className="relative h-[100px] z-10">
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-transparent -z-10"></div>
         <div className="h-full flex items-center justify-between px-4 md:container">
           <div>
             <Logo as="h1" className="text-lg md:text-2xl" />
@@ -155,7 +164,7 @@ const LandingPage = () => {
       </div>
 
       <div className="grow">
-        <div className="h-full flex flex-col justify-end space-y-12 py-32 px-4 md:container">
+        <div className="h-full flex flex-col justify-end space-y-12 py-12 sm:py-24 md:py-32 px-4 md:container">
           <div className="space-y-3">
             <Logo
               as="h5"
