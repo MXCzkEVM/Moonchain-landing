@@ -23,8 +23,8 @@ export const linksConfig = {
       url: "https://mns.mxc.com/",
     },
     {
-      label: "L2 Bridge",
-      url: "https://bridge.mxc.com/",
+      label: "Bridge",
+      url: "https://erc20.mxc.com/",
     },
     {
       label: "Stable Coin",

@@ -87,8 +87,8 @@ const LandingPage = () => {
               className="font-ddin font-semibold text-foreground rounded-none border-foreground bg-transparent px-6 animate-slide-out-dark hover:animate-slide-in-dark"
               asChild
             >
-              <a href={linksConfig.docs} target="_blank" rel="noreferrer">
-                DOCS
+              <a href={linksConfig.wallet} target="_blank" rel="noreferrer">
+                WALLET
               </a>
             </Button>
             <Button
@@ -240,6 +240,8 @@ const NavLink = ({ href, children, isMobile = false }: NavLinkProps) => {
     <li className="font-ddin font-semibold uppercase">
       <a
         href={href}
+        target="_blank"
+        rel="noreferrer"
         className="group rounded transition duration-300 ease-in-out"
       >
         {children}
