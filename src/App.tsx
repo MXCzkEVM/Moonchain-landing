@@ -1,5 +1,11 @@
+import LandingPage from "./pages/LandingPage";
+
 function App() {
-  return <>Moonchain</>;
+  return (
+    <div className="dark">
+      <LandingPage />
+    </div>
+  );
 }
 
 export default App;

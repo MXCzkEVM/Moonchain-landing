@@ -74,3 +74,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.font-spacex {
+  font-family: 'SpaceX';
+}
+
+.font-ddin {
+  font-family: 'D-DIN';
+}
