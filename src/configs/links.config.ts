@@ -8,27 +8,27 @@ export const linksConfig = {
   navLinks: [
     {
       label: "Swap",
-      url: "https://swap.mxc.com/",
+      url: "https://swap.moonchain.com/",
     },
     {
       label: "Swap Info",
-      url: "https://swap-info.mxc.com/",
+      url: "https://swap-info.moonchain.com/",
     },
     {
       label: "NFT",
-      url: "https://nft.mxc.com/",
+      url: "https://nft.moonchain.com/",
     },
     {
       label: "MNS",
-      url: "https://mns.mxc.com/",
+      url: "https://mns.moonchain.com/",
     },
     {
       label: "Bridge",
-      url: "https://erc20.mxc.com/",
+      url: "https://erc20.moonchain.com/",
     },
     {
       label: "Stable Coin",
-      url: "https://xsd.mxc.com/",
+      url: "https://xsd.moonchain.com/",
     },
     {
       label: "Mining",
@@ -40,11 +40,15 @@ export const linksConfig = {
     },
     {
       label: "Explorer",
-      url: "https://explorer.mxc.com/",
+      url: "https://explorer.moonchain.com/",
     },
     {
       label: "DepInscriptions",
-      url: "https://depinscriptions.mxc.com/",
+      url: "https://depinscriptions.moonchain.com/",
+    },
+    {
+      label: "Airdrop",
+      url: "https://airdrop.moonchain.com/",
     },
   ],
 };
