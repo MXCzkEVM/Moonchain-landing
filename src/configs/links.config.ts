@@ -1,7 +1,7 @@
 export const linksConfig = {
   // CTAs
   connect: "https://chainlist.org/chain/18686",
-  docs: "https://doc.mxc.com/",
+  docs: "https://doc.moonchain.com/",
   wallet: "https://www.mxc.org/axs-app",
 
   // Navigation links
