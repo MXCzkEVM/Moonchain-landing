@@ -56,29 +56,29 @@ const BackgroundAnimation = () => {
               ...(isHovered ? { outlineOffset: 0 } : {}),
             }}
           >
-            <EcosystemCircle containerClassName="ml-0.5 w-full h-full" />
+            <EcosystemCircle containerClassName="ml-0.5 w-full h-full -z-10" />
             <div className="absolute inset-0 bg-black/50" />
             <Button
               size="lg"
-              className="absolute top-1/2 -translate-y-1/2 md:bottom-1/4 left-[15%] md:left-1/2 md:transform md:-translate-x-1/2 font-ddin font-semibold text-foreground border-foreground border-2 bg-transparent rounded-none animate-slide-out-dark hover:animate-slide-in-dark px-6 py-6 md:px-8 md:py-6 bg-black"
+              className="absolute top-1/2 -translate-y-1/2 md:top-auto md:translate-y-0 md:bottom-1/4 left-[15%] md:left-1/2 md:transform md:-translate-x-1/2 font-ddin font-semibold text-foreground border-foreground border-2 bg-transparent rounded-none animate-slide-out-dark hover:animate-slide-in-dark px-6 py-6 md:px-8 md:py-6 bg-black"
               asChild
             >
               <Link to="/ecosystem">SEE DETAILS</Link>
             </Button>
           </div>
+          <div
+            className={cn(
+              "absolute inset-0 animated-moon rounded-full transition duration-700 pointer-events-none",
+              isHovered ? "opacity-0" : "opacity-100"
+            )}
+          />
+          <div
+            className={cn(
+              "absolute inset-0 bg-gradient-to-bl from-black from-0% via-black via-30% to-transparent to-75% rounded-full transition duration-700 pointer-events-none",
+              isHovered ? "opacity-0" : "opacity-100"
+            )}
+          />
         </div>
-        <div
-          className={cn(
-            "absolute inset-0 animated-moon rounded-full transition duration-700 pointer-events-none",
-            isHovered ? "opacity-0" : "opacity-100"
-          )}
-        />
-        <div
-          className={cn(
-            "absolute inset-0 bg-gradient-to-bl from-black from-0% via-black via-30% to-transparent to-75% rounded-full transition duration-700 pointer-events-none",
-            isHovered ? "opacity-0" : "opacity-100"
-          )}
-        />
       </div>
     </>
   );
