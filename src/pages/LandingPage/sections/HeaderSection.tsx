@@ -18,6 +18,7 @@ import NavLink from "../components/NavLink";
 import { Separator } from "@/components/ui/separator";
 import { MenuIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const leftNavLinks = linksConfig.navLinks.slice(
   0,
@@ -32,9 +33,9 @@ const HeaderSection = () => {
     <div className="relative h-[100px] z-10">
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-transparent -z-10"></div>
       <div className="h-full flex items-center justify-between px-4 md:container">
-        <div>
+        <Link to="/">
           <Logo as="h1" className="text-lg md:text-2xl" />
-        </div>
+        </Link>
         <nav className="hidden xl:flex">
           <ul className="flex space-x-4 text-sm text-foreground">
             {linksConfig.navLinks.map((link) => (

@@ -68,18 +68,18 @@ module.exports = {
         },
         "slide-in": {
           "from": { boxShadow: "inset 0 0 0 0.01px rgb(82 82 91)" },
-          "to": { boxShadow: "inset 8.79928em 0 0 0.01px rgb(82 82 91)", color: "#fff" },
+          "to": { boxShadow: "inset 10em 0 0 0.01px rgb(82 82 91)", color: "#fff" },
         },
         "slide-out": {
-          "from": { boxShadow: "inset -8.79928em 0 0 0.01px rgb(82 82 91)", color: "#fff" },
+          "from": { boxShadow: "inset -10em 0 0 0.01px rgb(82 82 91)", color: "#fff" },
           "to": { boxShadow: "inset 0 0 0 0.01px rgb(82 82 91)" },
         },
         "slide-in-dark": {
           "from": { boxShadow: "inset 0 0 0 0.01px rgb(156 163 175)" },
-          "to": { boxShadow: "inset 8.79928em 0 0 0.01px rgb(156 163 175)", color: "#000" },
+          "to": { boxShadow: "inset 10em 0 0 0.01px rgb(156 163 175)", color: "#000" },
         },
         "slide-out-dark": {
-          "from": { boxShadow: "inset -8.79928em 0 0 0.01px rgb(156 163 175)", color: "#000" },
+          "from": { boxShadow: "inset -10em 0 0 0.01px rgb(156 163 175)", color: "#000" },
           "to": { boxShadow: "inset 0 0 0 0.01px rgb(156 163 175)" },
         },
       },
