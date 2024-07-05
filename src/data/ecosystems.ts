@@ -64,11 +64,11 @@ export const ecosystemLogos = {
 export const ecosystems: Ecosystem[] = [
   {
     title: "DePIN",
-    description: "Lorem ipsum",
+    description: "Makeing hardware great again!",
     items: [
       {
         name: "Oyster Labs",
-        description: "Lorem ipsum",
+        description: "Selling Web3 phones",
         image: {
           src: ecosystemLogos["Oyster Labs"],
           className: "",
@@ -82,7 +82,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Tailz",
-        description: "Lorem ipsum",
+        description: "Web3 DePIN Pet trackers",
         image: {
           src: ecosystemLogos["Tailz"],
           className: "",
@@ -96,7 +96,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "DID Phone",
-        description: "Lorem ipsum",
+        description: "Delivery guy's first Web3 phone",
         image: {
           src: ecosystemLogos["DID Phone"],
           className: "",
@@ -110,7 +110,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Coral Phone",
-        description: "Lorem ipsum",
+        description: "DePIN phones at hands",
         image: {
           src: ecosystemLogos["Coral Phone"],
           className: "",
@@ -124,7 +124,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "APhone",
-        description: "Lorem ipsum",
+        description: "Decentralized Could Smart Phone",
         image: {
           src: ecosystemLogos["APhone"],
           className: "",
@@ -138,7 +138,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Blueberry Ring",
-        description: "Lorem ipsum",
+        description: "Lord of Web3 Ring",
         image: {
           src: ecosystemLogos["Blueberry Ring"],
           className: "left-[20%] top-[35%]",
@@ -152,7 +152,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "IoTeX",
-        description: "Lorem ipsum",
+        description: "DePin Layer1",
         image: {
           src: ecosystemLogos["IoTeX"],
           className: "",
@@ -166,7 +166,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Drife",
-        description: "Lorem ipsum",
+        description: "Web3 Uber",
         image: {
           src: ecosystemLogos["Drife"],
           className: "",
@@ -180,7 +180,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Airo Networks",
-        description: "Lorem ipsum",
+        description: "World largest Air Quality Network",
         image: {
           src: ecosystemLogos["Airo Networks"],
           className: "",
@@ -196,11 +196,11 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "VC",
-    description: "Lorem ipsum",
+    description: "DePIN focused Venture Capitals",
     items: [
       {
         name: "JDI",
-        description: "Lorem ipsum",
+        description: "The largest investor behind Dimo and Helium",
         image: {
           src: ecosystemLogos["JDI"],
           className: "",
@@ -214,7 +214,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Candaq",
-        description: "Lorem ipsum",
+        description: "Started from 2012, invested in a lot of DePIN projects",
         image: {
           src: ecosystemLogos["Candaq"],
           className: "",
@@ -230,11 +230,11 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "RWA",
-    description: "Lorem ipsum",
+    description: "Real World Assets",
     items: [
       {
         name: "Rewards Bunny",
-        description: "Lorem ipsum",
+        description: "Platforms for the RWA",
         image: {
           src: ecosystemLogos["Rewards Bunny"],
           className: "",
@@ -250,11 +250,11 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "Infrastructure",
-    description: "Lorem ipsum",
+    description: "DePIN infrastructure ",
     items: [
       {
         name: "Drop Wireless",
-        description: "Lorem ipsum",
+        description: "Wireless networks for DePIN",
         image: {
           src: ecosystemLogos["Drop Wireless"],
           className: "",
@@ -270,11 +270,11 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "Data/Tooling",
-    description: "Lorem ipsum",
+    description: "DePIN data tools",
     items: [
       {
         name: "Public AI",
-        description: "Lorem ipsum",
+        description: "AI for DePIN",
         image: {
           src: ecosystemLogos["Public AI"],
           className: "",
@@ -290,11 +290,11 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "Launchpad",
-    description: "Lorem ipsum",
+    description: "DePIN launch platforms",
     items: [
       {
         name: "UXUY",
-        description: "Lorem ipsum",
+        description: "Web3 DePIN launchpad and wallet",
         image: {
           src: ecosystemLogos["UXUY"],
           className: "h-6 !w-auto bg-white px-1 py-1",
