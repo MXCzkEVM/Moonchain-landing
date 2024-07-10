@@ -78,6 +78,16 @@ const BackgroundAnimation = () => {
               isHovered ? "opacity-0" : "opacity-100"
             )}
           />
+          <div
+            className={cn("flag-animation-container", isHovered && "hidden")}
+          >
+            <div className="flag top-[50%] left-[23%]">🇪🇺</div>
+            <div className="flag top-[65%] left-[15%]">🇺🇸</div>
+            <div className="flag top-[70%] left-[30%]">🇪🇺</div>
+            <div className="flag top-[62%] left-[45%]">🇺🇸</div>
+            <div className="flag top-[83%] left-[35%]">🇪🇺</div>
+            <div className="flag top-[79%] left-[50%]">🇺🇸</div>
+          </div>
         </div>
       </div>
     </>
