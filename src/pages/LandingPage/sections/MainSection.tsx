@@ -1,6 +1,7 @@
 import { linksConfig } from "@/configs/links.config";
 import Logo from "../components/Logo";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const MainSection = () => {
   return (
@@ -13,7 +14,14 @@ const MainSection = () => {
           />
           <h1 className="animate__animated animate__fadeInUp delay-100 font-ddin font-semibold text-foreground max-w-lg text-4xl md:text-5xl">
             {/* Ethereum’s largest AI+DePIN chain */}
-            ETHEREUM’S LARGEST DePIN CHAIN
+            ETHEREUM’S LARGEST DePIN CHAIN{" "}
+            <Link
+              to="https://l2beat.com/scaling/summary#layer3s"
+              target="_blank"
+              className="hover:underline text-base align-top"
+            >
+              [1]
+            </Link>
           </h1>
         </div>
         <div className="animate__animated animate__fadeInUp delay-100 flex items-center space-x-4">
