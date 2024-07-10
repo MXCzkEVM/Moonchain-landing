@@ -64,11 +64,11 @@ export const ecosystemLogos = {
 export const ecosystems: Ecosystem[] = [
   {
     title: "DePIN",
-    description: "Lorem ipsum",
+    description: "Makeing hardware great again!",
     items: [
       {
         name: "Oyster Labs",
-        description: "Lorem ipsum",
+        description: "Selling Web3 phones",
         image: {
           src: ecosystemLogos["Oyster Labs"],
           className: "",
@@ -78,11 +78,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[14%] top-[17%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/oysterecosystem",
       },
       {
         name: "Tailz",
-        description: "Lorem ipsum",
+        description: "Web3 DePIN Pet trackers",
         image: {
           src: ecosystemLogos["Tailz"],
           className: "",
@@ -90,16 +90,16 @@ export const ecosystems: Ecosystem[] = [
         },
         chart: {
           positionClassName: "left-[28%] top-[7%]",
-          imageClassName: "",
+          imageClassName: "https://twitter.com/tailz_xyz",
         },
         url: "",
       },
       {
         name: "DID Phone",
-        description: "Lorem ipsum",
+        description: "Delivery guy's first Web3 phone",
         image: {
           src: ecosystemLogos["DID Phone"],
-          className: "",
+          className: "https://twitter.com/DidDiscovery",
           rounded: true,
         },
         chart: {
@@ -110,7 +110,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Coral Phone",
-        description: "Lorem ipsum",
+        description: "DePIN phones at hands",
         image: {
           src: ecosystemLogos["Coral Phone"],
           className: "",
@@ -120,11 +120,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[28%] top-[7%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/MyCoralApp",
       },
       {
         name: "APhone",
-        description: "Lorem ipsum",
+        description: "Decentralized Could Smart Phone",
         image: {
           src: ecosystemLogos["APhone"],
           className: "",
@@ -134,11 +134,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[14%] top-[17%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/aphonelabs",
       },
       {
         name: "Blueberry Ring",
-        description: "Lorem ipsum",
+        description: "Lord of Web3 Ring",
         image: {
           src: ecosystemLogos["Blueberry Ring"],
           className: "left-[20%] top-[35%]",
@@ -148,11 +148,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[20%] top-[35%]",
           imageClassName: "w-16 h-16",
         },
-        url: "",
+        url: "https://twitter.com/BlueberryRing",
       },
       {
         name: "IoTeX",
-        description: "Lorem ipsum",
+        description: "DePin Layer1",
         image: {
           src: ecosystemLogos["IoTeX"],
           className: "",
@@ -162,11 +162,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[34%] top-[22%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/iotex_io",
       },
       {
         name: "Drife",
-        description: "Lorem ipsum",
+        description: "Web3 Uber",
         image: {
           src: ecosystemLogos["Drife"],
           className: "",
@@ -176,11 +176,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[32%] top-[22%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/Drife_official",
       },
       {
         name: "Airo Networks",
-        description: "Lorem ipsum",
+        description: "World largest Air Quality Network",
         image: {
           src: ecosystemLogos["Airo Networks"],
           className: "",
@@ -190,17 +190,17 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[18%] top-1/3",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/airosystems",
       },
     ],
   },
   {
     title: "VC",
-    description: "Lorem ipsum",
+    description: "DePIN focused Venture Capitals",
     items: [
       {
         name: "JDI",
-        description: "Lorem ipsum",
+        description: "The largest investor behind Dimo and Helium",
         image: {
           src: ecosystemLogos["JDI"],
           className: "",
@@ -210,11 +210,11 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[30%] bottom-[25%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/Global_JDI",
       },
       {
         name: "Candaq",
-        description: "Lorem ipsum",
+        description: "Started from 2012, invested in a lot of DePIN projects",
         image: {
           src: ecosystemLogos["Candaq"],
           className: "",
@@ -224,17 +224,17 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[22%] bottom-[15%]",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/CandaqCom",
       },
     ],
   },
   {
     title: "RWA",
-    description: "Lorem ipsum",
+    description: "Real World Assets",
     items: [
       {
         name: "Rewards Bunny",
-        description: "Lorem ipsum",
+        description: "Platforms for the RWA",
         image: {
           src: ecosystemLogos["Rewards Bunny"],
           className: "",
@@ -244,17 +244,17 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[8%] bottom-[35%]",
           imageClassName: "w-28 h-auto",
         },
-        url: "",
+        url: "https://twitter.com/rewardsbunny",
       },
     ],
   },
   {
     title: "Infrastructure",
-    description: "Lorem ipsum",
+    description: "DePIN infrastructure ",
     items: [
       {
         name: "Drop Wireless",
-        description: "Lorem ipsum",
+        description: "Wireless networks for DePIN",
         image: {
           src: ecosystemLogos["Drop Wireless"],
           className: "",
@@ -264,17 +264,17 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[22%] bottom-[18%]",
           imageClassName: "h-auto w-28 rounded-full",
         },
-        url: "",
+        url: "https://twitter.com/dropwireless",
       },
     ],
   },
   {
     title: "Data/Tooling",
-    description: "Lorem ipsum",
+    description: "DePIN data tools",
     items: [
       {
         name: "Public AI",
-        description: "Lorem ipsum",
+        description: "AI for DePIN",
         image: {
           src: ecosystemLogos["Public AI"],
           className: "",
@@ -284,17 +284,17 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-1/2 bottom-[12%] transform -translate-x-1/2",
           imageClassName: "",
         },
-        url: "",
+        url: "https://twitter.com/PublicAI_",
       },
     ],
   },
   {
     title: "Launchpad",
-    description: "Lorem ipsum",
+    description: "DePIN launch platforms",
     items: [
       {
         name: "UXUY",
-        description: "Lorem ipsum",
+        description: "Web3 DePIN launchpad and wallet",
         image: {
           src: ecosystemLogos["UXUY"],
           className: "h-6 !w-auto bg-white px-1 py-1",
@@ -304,7 +304,7 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "right-[10%] bottom-[37%]",
           imageClassName: "h-16 w-auto",
         },
-        url: "",
+        url: "https://twitter.com/uxuycom",
       },
     ],
   },
