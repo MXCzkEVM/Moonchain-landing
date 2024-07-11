@@ -10,7 +10,7 @@ const MainSection = () => {
         <div className="space-y-3">
           <Logo
             as="h5"
-            className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm"
+            className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm inline-flex"
           />
           <h1 className="animate__animated animate__fadeInUp delay-100 font-ddin font-semibold text-foreground max-w-lg text-4xl md:text-5xl">
             {/* Ethereum’s largest AI+DePIN chain */}
