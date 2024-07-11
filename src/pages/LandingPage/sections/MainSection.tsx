@@ -6,45 +6,48 @@ import { Link } from "react-router-dom";
 const MainSection = () => {
   return (
     <div className="grow">
-      <div className="h-full flex flex-col justify-end space-y-12 py-12 sm:py-24 md:py-32 px-4 md:container">
-        <div className="space-y-3">
-          <Logo
-            as="h5"
-            className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm inline-flex"
-          />
-          <h1 className="animate__animated animate__fadeInUp delay-100 font-ddin font-semibold text-foreground max-w-lg text-4xl md:text-5xl">
-            {/* Ethereum’s largest AI+DePIN chain */}
-            ETHEREUM’S LARGEST DePIN CHAIN{" "}
-            <Link
-              to="https://l2beat.com/scaling/summary#layer3s"
-              target="_blank"
-              className="hover:underline text-base align-top"
-            >
-              [1]
-            </Link>
-          </h1>
-        </div>
-        <div className="animate__animated animate__fadeInUp delay-100 flex items-center space-x-4">
-          <div className="animate__animated animate__fadeInUp delay-100">
-            <CustomButton variant="primary">
-              <a href={linksConfig.connect} target="_blank" rel="noreferrer">
-                CONNECT
-              </a>
-            </CustomButton>
+      <div className="h-full flex items-end justify-start py-12 sm:py-24 md:py-32 px-4 md:container">
+        <div className="space-y-12">
+          <div className="space-y-3">
+            <Logo
+              as="h5"
+              className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm inline-block"
+            />
+            <div></div>
+            <h1 className="animate__animated animate__fadeInUp delay-100 font-ddin font-semibold text-foreground max-w-lg text-4xl md:text-5xl inline-block">
+              {/* Ethereum’s largest AI+DePIN chain */}
+              ETHEREUM’S LARGEST DePIN CHAIN{" "}
+              <Link
+                to="https://l2beat.com/scaling/summary#layer3s"
+                target="_blank"
+                className="hover:underline text-base align-top"
+              >
+                [1]
+              </Link>
+            </h1>
           </div>
-          <div className="animate__animated animate__fadeInUp delay-200">
-            <CustomButton variant="outline">
-              <a href={linksConfig.docs} target="_blank" rel="noreferrer">
-                DOCS
-              </a>
-            </CustomButton>
-          </div>
-          <div className="animate__animated animate__fadeInUp delay-300">
-            <CustomButton variant="outline">
-              <a href={linksConfig.wallet} target="_blank" rel="noreferrer">
-                WALLET
-              </a>
-            </CustomButton>
+          <div className="animate__animated animate__fadeInUp delay-100 space-x-4 inline-block">
+            <div className="animate__animated animate__fadeInUp delay-100 inline-block">
+              <CustomButton variant="primary">
+                <a href={linksConfig.connect} target="_blank" rel="noreferrer">
+                  CONNECT
+                </a>
+              </CustomButton>
+            </div>
+            <div className="animate__animated animate__fadeInUp delay-200 inline-block">
+              <CustomButton variant="outline">
+                <a href={linksConfig.docs} target="_blank" rel="noreferrer">
+                  DOCS
+                </a>
+              </CustomButton>
+            </div>
+            <div className="animate__animated animate__fadeInUp delay-300 inline-block">
+              <CustomButton variant="outline">
+                <a href={linksConfig.wallet} target="_blank" rel="noreferrer">
+                  WALLET
+                </a>
+              </CustomButton>
+            </div>
           </div>
         </div>
       </div>
