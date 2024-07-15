@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import EcosystemCircle from "@/pages/EcosystemPage/EcosystemCircle";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 const BackgroundAnimation = () => {
   const containerRef = useRef<HTMLDivElement>(null);
