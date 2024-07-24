@@ -18,7 +18,7 @@ const MainSection = () => {
               {/* Ethereum’s largest AI+DePIN chain */}
               ETHEREUM’S LARGEST DePIN CHAIN{" "}
               <Link
-                to="https://l2beat.com/scaling/summary#layer3s"
+                to="https://l2beat.com/scaling/projects/mxc"
                 target="_blank"
                 className="hover:underline text-base align-top"
               >
