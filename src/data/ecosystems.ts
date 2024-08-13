@@ -13,6 +13,12 @@ import iconPublicAi from "@/assets/ecosystem/public-ai.png";
 import iconRewardsBunny from "@/assets/ecosystem/rewards-bunny.png";
 import iconTailz from "@/assets/ecosystem/tailz.jpg";
 import iconUxuy from "@/assets/ecosystem/uxuy.png";
+import iconChargepal from "@/assets/ecosystem/Chargepal.png";
+import iconCyberCharge from "@/assets/ecosystem/CyberCharge.svg";
+import iconDekube from "@/assets/ecosystem/Dekube.png";
+import iconKaisar from "@/assets/ecosystem/Kaisar.png";
+import iconWatchX from "@/assets/ecosystem/WatchX.png";
+import iconBitget from "@/assets/ecosystem/Bitget.svg";
 
 interface EcosystemItem {
   name: string;
@@ -59,6 +65,12 @@ export const ecosystemLogos = {
   "Drop Wireless": iconDropWireless,
   "Public AI": iconPublicAi,
   UXUY: iconUxuy,
+  CyberCharge: iconCyberCharge,
+  Dekube: iconDekube,
+  Kaisar: iconKaisar,
+  WatchX: iconWatchX,
+  Bitget: iconBitget,
+  Chargepal: iconChargepal,
 } as const;
 
 export const ecosystems: Ecosystem[] = [
@@ -192,6 +204,48 @@ export const ecosystems: Ecosystem[] = [
         },
         url: "https://twitter.com/airosystems",
       },
+      {
+        name: "WatchX Network",
+        description: "World largest Air Quality Network",
+        image: {
+          src: ecosystemLogos["WatchX"],
+          className: "",
+          rounded: true,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/watchxnetwork",
+      },
+      {
+        name: "CyberCharge",
+        description: "Next-Gen Global Power Matching Protocol",
+        image: {
+          src: ecosystemLogos["CyberCharge"],
+          className: "",
+          rounded: true,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/CyberChargeWeb3",
+      },
+      {
+        name: "Chargepal",
+        description: "The First-ever Decentralized Power Bank protocol",
+        image: {
+          src: ecosystemLogos["Chargepal"],
+          className: "",
+          rounded: true,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/Chargepalweb3",
+      },
     ],
   },
   {
@@ -266,6 +320,34 @@ export const ecosystems: Ecosystem[] = [
         },
         url: "https://twitter.com/dropwireless",
       },
+      {
+        name: "Dekube Network",
+        description: "Build The World's Largest Distributed AI Computing Network",
+        image: {
+          src: ecosystemLogos["Dekube"],
+          className: "",
+          rounded: false,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/dekube_official",
+      },
+      {
+        name: "Kaisar Network",
+        description: "The leading GPU-as-a-service protocol",
+        image: {
+          src: ecosystemLogos["Kaisar"],
+          className: "",
+          rounded: false,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/KaisarNetwork",
+      },
     ],
   },
   {
@@ -305,6 +387,26 @@ export const ecosystems: Ecosystem[] = [
           imageClassName: "h-16 w-auto",
         },
         url: "https://twitter.com/uxuycom",
+      },
+    ],
+  },
+  {
+    title: "Exchange",
+    description: "Partner Moonchain Exchanges",
+    items: [
+      {
+        name: "Bitget Global",
+        description: "World's leading cryptocurrency exchange and web3 company.",
+        image: {
+          src: ecosystemLogos["Bitget"],
+          className: "h-6 !w-auto bg-white px-1 py-1",
+          rounded: false,
+        },
+        chart: {
+          positionClassName: "",
+          imageClassName: "",
+        },
+        url: "https://x.com/bitgetglobal",
       },
     ],
   },
