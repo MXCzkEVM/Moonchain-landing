@@ -76,7 +76,7 @@ export const ecosystemLogos = {
 export const ecosystems: Ecosystem[] = [
   {
     title: "DePIN",
-    description: "Makeing hardware great again!",
+    description: "Making hardware great again!",
     items: [
       {
         name: "Oyster Labs",
@@ -104,21 +104,21 @@ export const ecosystems: Ecosystem[] = [
           positionClassName: "left-[28%] top-[7%]",
           imageClassName: "https://twitter.com/tailz_xyz",
         },
-        url: "",
+        url: "https://twitter.com/tailz_xyz",
       },
       {
         name: "DID Phone",
         description: "Delivery guy's first Web3 phone",
         image: {
           src: ecosystemLogos["DID Phone"],
-          className: "https://twitter.com/DidDiscovery",
+          className: "",
           rounded: true,
         },
         chart: {
           positionClassName: "left-1/2 top-[3%] transform -translate-x-1/2",
-          imageClassName: "",
+          imageClassName: "https://twitter.com/DidDiscovery",
         },
-        url: "",
+        url: "https://twitter.com/DidDiscovery",
       },
       {
         name: "Coral Phone",
@@ -153,8 +153,8 @@ export const ecosystems: Ecosystem[] = [
         description: "Lord of Web3 Ring",
         image: {
           src: ecosystemLogos["Blueberry Ring"],
-          className: "left-[20%] top-[35%]",
-          rounded: false,
+          className: "",
+          rounded: true,
         },
         chart: {
           positionClassName: "left-[20%] top-[35%]",
@@ -192,7 +192,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "Airo Networks",
-        description: "World largest Air Quality Network",
+        description: "Worlds largest Air Quality Network",
         image: {
           src: ecosystemLogos["Airo Networks"],
           className: "",
@@ -206,7 +206,7 @@ export const ecosystems: Ecosystem[] = [
       },
       {
         name: "WatchX Network",
-        description: "World largest Air Quality Network",
+        description: "Worlds largest Air Quality Network",
         image: {
           src: ecosystemLogos["WatchX"],
           className: "",
@@ -223,8 +223,8 @@ export const ecosystems: Ecosystem[] = [
         description: "Next-Gen Global Power Matching Protocol",
         image: {
           src: ecosystemLogos["CyberCharge"],
-          className: "",
-          rounded: true,
+          className: "ecosystem-logo",
+          rounded: false,
         },
         chart: {
           positionClassName: "",
@@ -237,8 +237,8 @@ export const ecosystems: Ecosystem[] = [
         description: "The First-ever Decentralized Power Bank protocol",
         image: {
           src: ecosystemLogos["Chargepal"],
-          className: "",
-          rounded: true,
+          className: "ecosystem-logo",
+          rounded: false,
         },
         chart: {
           positionClassName: "",
@@ -258,7 +258,7 @@ export const ecosystems: Ecosystem[] = [
         image: {
           src: ecosystemLogos["JDI"],
           className: "",
-          rounded: false,
+          rounded: true,
         },
         chart: {
           positionClassName: "right-[30%] bottom-[25%]",
@@ -292,7 +292,7 @@ export const ecosystems: Ecosystem[] = [
         image: {
           src: ecosystemLogos["Rewards Bunny"],
           className: "",
-          rounded: false,
+          rounded: true,
         },
         chart: {
           positionClassName: "left-[8%] bottom-[35%]",
@@ -379,7 +379,7 @@ export const ecosystems: Ecosystem[] = [
         description: "Web3 DePIN launchpad and wallet",
         image: {
           src: ecosystemLogos["UXUY"],
-          className: "h-6 !w-auto bg-white px-1 py-1",
+          className: "",
           rounded: false,
         },
         chart: {
@@ -399,7 +399,7 @@ export const ecosystems: Ecosystem[] = [
         description: "World's leading cryptocurrency exchange and web3 company.",
         image: {
           src: ecosystemLogos["Bitget"],
-          className: "h-6 !w-auto bg-white px-1 py-1",
+          className: "ecosystem-logo",
           rounded: false,
         },
         chart: {

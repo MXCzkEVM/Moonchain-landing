@@ -27,7 +27,6 @@ const EcosystemPage = () => {
 
         <EcosystemCircle containerClassName="w-full max-w-[800px] mx-auto" />
       </section>
-
       <section className="container space-y-10 pb-40">
         {ecosystems.map((ecosystem, index) => (
           <div className="space-y-6" key={index}>
@@ -43,35 +42,39 @@ const EcosystemPage = () => {
               {ecosystem.items.map((item, index2) => (
                 <div
                   key={`${index}-${index2}`}
-                  className="bg-white/10 p-3 md:p-4 space-y-4 transition-colors hover:bg-white/25"
+                  className="bg-white/10 p-4 transition-colors hover:bg-white/25"
                 >
-                  <div className="flex justify-between items-center">
-                    <div className="flex items-center space-x-2">
-                      <img
-                        src={item.image.src}
-                        alt={item.name}
-                        className={cn(
-                          "w-10 h-10 md:w-12 md:h-12",
-                          item.image.rounded && "rounded-full",
-                          item.image.className
-                        )}
-                      />
-                      <h4 className="font-ddin text-base md:text-lg">
-                        {item.name}
-                      </h4>
-                    </div>
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      className="bg-transparent text-muted-foreground"
-                      asChild
-                    >
-                      <Link to={item.url} target="_blank">
-                        <LinkIcon className="w-3 h-3" />
-                      </Link>
-                    </Button>
+                  <div className="flex items-center justify-between mb-2">
+                    {/* Left side: Logo */}
+                    <img
+                      src={item.image.src}
+                      alt={item.name}
+                      className={cn(
+                        "w-10 h-10",
+                        item.image.rounded ? "rounded-full" : "rounded-none",
+                        item.image.className
+                      )}
+                    />
+                    {/* Right side: Button Link */}
+                    {item.url && (
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        className="bg-transparent text-muted-foreground"
+                        asChild
+                      >
+                        <Link to={item.url} target="_blank">
+                          <LinkIcon className="w-3 h-3" />
+                        </Link>
+                      </Button>
+                    )}
                   </div>
-                  <p className="text-sm text-muted-foreground">
+                  {/* Partner Name */}
+                  <h4 className="font-ddin text-base md:text-lg">
+                    {item.name}
+                  </h4>
+                  {/* Description */}
+                  <p className="text-sm text-muted-foreground mt-2">
                     {item.description}
                   </p>
                 </div>

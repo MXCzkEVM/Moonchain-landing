@@ -86,3 +86,14 @@
 .container {
   @apply px-4 sm:px-6 md:px-8;
 }
+
+@layer components {
+  .rounded-full {
+    border-radius: 50% !important;
+    object-fit: cover; /* Ensures the image covers the entire circle */
+  }
+  .rounded-none {
+    width: 120px !important;
+    border-radius: 0 !important;
+  }
+}
