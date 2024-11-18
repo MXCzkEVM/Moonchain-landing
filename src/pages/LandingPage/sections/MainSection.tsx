@@ -16,7 +16,7 @@ const MainSection = () => {
             <div></div>
             <h1 className="animate__animated animate__fadeInUp delay-100 font-ddin font-semibold text-foreground max-w-lg text-4xl md:text-5xl inline-block">
               {/* Ethereum’s largest AI+DePIN chain */}
-              ETHEREUM’S LARGEST WEARFI ZK-ROLLUP{" "}
+              ETHEREUM’S FIRST BEAMCHAIN IMPLEMENTING BEAMSNARKS{" "}
               <Link
                 to="https://l2beat.com/scaling/projects/mxc"
                 target="_blank"
