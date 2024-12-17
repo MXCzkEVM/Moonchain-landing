@@ -8,11 +8,12 @@ const MainSection = () => {
     <div className="grow">
       <div className="h-full flex items-end justify-start py-12 sm:py-24 md:py-32 px-4 md:container">
         <div className="space-y-12">
-          <div className="space-y-3">
-            <Logo
-              as="h5"
-              className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm inline-block"
-            />
+        <div className="space-y-3">
+            <div className="flex items-center gap-2">
+              <Logo
+                as="h5"
+                className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm inline-block"
+              />
               <span className="animate__animated animate__fadeInUp delay-50 text-foreground text-xs md:text-sm">
                 | Ethereum 3.0
               </span>
