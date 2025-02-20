@@ -24,7 +24,7 @@ export const linksConfig = {
     },
     {
       label: "Bridge",
-      url: "https://erc20.moonchain.com/",
+      url: "https://jannowitz.moonchain.com/",
     },
     {
       label: "Stable Coin",
