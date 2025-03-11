@@ -5,7 +5,6 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import {
   Sheet,
@@ -36,14 +35,6 @@ const leftMoreLinks = moreNavLinks.slice(
 );
 const rightMoreLinks = moreNavLinks.slice(
   Math.ceil(moreNavLinks.length / 2)
-);
-
-// 创建一个包装组件来复用动画样式
-const AnimatedNavItem = ({ children, className = "" }: { children: React.ReactNode, className?: string }) => (
-  <div className={`relative group ${className}`}>
-    {children}
-    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 transition-transform group-hover:scale-x-100" />
-  </div>
 );
 
 const HeaderSection = () => {
