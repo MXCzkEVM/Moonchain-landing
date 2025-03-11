@@ -9,6 +9,7 @@ export const linksConfig = {
     {
       label: "ROADMAP 2025",
       url: "https://doc.moonchain.com/docs/Resources/Roadmap",
+      color: "#FFBF00"
     },
     {
       label: "Swap",

@@ -20,7 +20,7 @@ import { MenuIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-// 更新主菜单项的过滤条件
+// 将导航链接分为主菜单项和更多菜单项
 const mainNavLinks = linksConfig.navLinks.filter(link => 
   link.label === "ROADMAP 2025" || link.label === "Swap" || link.label === "Bridge"
 );
@@ -45,17 +45,24 @@ const HeaderSection = () => {
         <Link to="/">
           <Logo as="h1" className="text-lg md:text-2xl" />
         </Link>
+        
+        {/* 桌面导航 */}
         <nav className="hidden xl:flex">
           <ul className="flex items-start space-x-4 text-sm text-foreground">
             {/* 显示主菜单项 */}
             {mainNavLinks.map((link) => (
-              <NavLink key={link.label} href={link.url}>
-                {link.label}
-              </NavLink>
+              <li 
+                key={link.label} 
+                style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+              >
+                <NavLink href={link.url}>
+                  {link.label}
+                </NavLink>
+              </li>
             ))}
             
-            {/* More下拉菜单 - 调整为 -0.5px 的边距 */}
-            <li className="-mt-[0.5px]">  {/* 从 -1px 改为 -0.5px */}
+            {/* More下拉菜单 */}
+            <li className="-mt-[0.5px]">
               <NavigationMenu>
                 <NavigationMenuList className="p-0">
                   <NavigationMenuItem>
@@ -68,16 +75,26 @@ const HeaderSection = () => {
                       <div className="flex items-center px-1 py-4 w-[300px]">
                         <ul className="w-2/5 space-y-1">
                           {leftMoreLinks.map((link) => (
-                            <NavLink key={link.label} href={link.url} isMobile>
-                              {link.label}
-                            </NavLink>
+                            <li 
+                              key={link.label}
+                              style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                            >
+                              <NavLink href={link.url} isMobile>
+                                {link.label}
+                              </NavLink>
+                            </li>
                           ))}
                         </ul>
                         <ul className="w-3/5 space-y-1">
                           {rightMoreLinks.map((link) => (
-                            <NavLink key={link.label} href={link.url} isMobile>
-                              {link.label}
-                            </NavLink>
+                            <li 
+                              key={link.label}
+                              style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                            >
+                              <NavLink href={link.url} isMobile>
+                                {link.label}
+                              </NavLink>
+                            </li>
                           ))}
                         </ul>
                       </div>
@@ -88,40 +105,9 @@ const HeaderSection = () => {
             </li>
           </ul>
         </nav>
+
+        {/* 按钮区域 */}
         <div className="hidden sm:flex space-x-2">
-          <NavigationMenu className="xl:hidden">
-            <NavigationMenuList>
-              <NavigationMenuItem className="relative">
-                <NavigationMenuTrigger className="text-foreground bg-transparent">
-                  zkEVM
-                </NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <div className="flex items-center px-1 py-4 w-[300px]">
-                    <ul className="w-full space-y-1">
-                      {/* 显示主菜单项 */}
-                      {mainNavLinks.map((link) => (
-                        <NavLink key={link.label} href={link.url} isMobile>
-                          {link.label}
-                        </NavLink>
-                      ))}
-                      
-                      {/* 添加分隔线 */}
-                      <li className="py-1">
-                        <Separator className="my-1" />
-                      </li>
-                      
-                      {/* 显示更多菜单项 */}
-                      {moreNavLinks.map((link) => (
-                        <NavLink key={link.label} href={link.url} isMobile>
-                          {link.label}
-                        </NavLink>
-                      ))}
-                    </ul>
-                  </div>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
           <CustomButton variant="outline">
             <a href={linksConfig.wallet} target="_blank" rel="noreferrer">
               WALLET
@@ -133,6 +119,8 @@ const HeaderSection = () => {
             </a>
           </CustomButton>
         </div>
+
+        {/* 移动端菜单 */}
         <div className="flex sm:hidden">
           <Sheet>
             <SheetTrigger asChild>
@@ -152,12 +140,17 @@ const HeaderSection = () => {
                 <ul className="w-full space-y-1 text-left">
                   {/* 显示主菜单项 */}
                   {mainNavLinks.map((link) => (
-                    <NavLink key={link.label} href={link.url} isMobile>
-                      {link.label}
-                    </NavLink>
+                    <li 
+                      key={link.label}
+                      style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                    >
+                      <NavLink href={link.url} isMobile>
+                        {link.label}
+                      </NavLink>
+                    </li>
                   ))}
                   
-                  {/* 添加分隔线和More标题 - 修改为大写 */}
+                  {/* 添加分隔线和More标题 */}
                   <li className="py-1">
                     <Separator className="my-1" />
                     <div className="text-sm font-medium py-1 px-3 font-ddin uppercase">
@@ -167,9 +160,14 @@ const HeaderSection = () => {
                   
                   {/* 直接显示更多菜单项 */}
                   {moreNavLinks.map((link) => (
-                    <NavLink key={link.label} href={link.url} isMobile>
-                      {link.label}
-                    </NavLink>
+                    <li 
+                      key={link.label}
+                      style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                    >
+                      <NavLink href={link.url} isMobile>
+                        {link.label}
+                      </NavLink>
+                    </li>
                   ))}
                 </ul>
 
@@ -177,20 +175,12 @@ const HeaderSection = () => {
 
                 <div className="grid grid-cols-2 gap-2 px-3">
                   <CustomButton variant="outline">
-                    <a
-                      href={linksConfig.wallet}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href={linksConfig.wallet} target="_blank" rel="noreferrer">
                       WALLET
                     </a>
                   </CustomButton>
                   <CustomButton variant="primary">
-                    <a
-                      href={linksConfig.connect}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href={linksConfig.connect} target="_blank" rel="noreferrer">
                       CONNECT
                     </a>
                   </CustomButton>
