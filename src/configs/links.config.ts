@@ -37,7 +37,7 @@ export const linksConfig = {
     },
     {
       label: "Mining",
-      url: "https://mining.matchx.io/",
+      url: "https://miningv2.matchx.io",
     },
     {
       label: "Disco Distro",
