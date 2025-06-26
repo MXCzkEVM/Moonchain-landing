@@ -22,10 +22,10 @@ import { Link } from "react-router-dom";
 
 // 将导航链接分为主菜单项和更多菜单项
 const mainNavLinks = linksConfig.navLinks.filter(link => 
-  link.label === "ROADMAP 2025" || link.label === "Swap" || link.label === "Bridge"
+  link.label === "IHO" || link.label === "Swap" || link.label === "Bridge"
 );
 const moreNavLinks = linksConfig.navLinks.filter(link => 
-  link.label !== "ROADMAP 2025" && link.label !== "Swap" && link.label !== "Bridge"
+  link.label !== "IHO" && link.label !== "Swap" && link.label !== "Bridge"
 );
 
 // 将更多菜单项分为两列（如果需要）
@@ -53,7 +53,7 @@ const HeaderSection = () => {
             {mainNavLinks.map((link) => (
               <li 
                 key={link.label} 
-                style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                style={link.label === "IHO" ? { color: "#FFBF00" } : undefined}
               >
                 <NavLink href={link.url}>
                   {link.label}
@@ -77,7 +77,7 @@ const HeaderSection = () => {
                           {leftMoreLinks.map((link) => (
                             <li 
                               key={link.label}
-                              style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                              style={link.label === "IHO" ? { color: "#FFBF00" } : undefined}
                             >
                               <NavLink href={link.url} isMobile>
                                 {link.label}
@@ -89,7 +89,7 @@ const HeaderSection = () => {
                           {rightMoreLinks.map((link) => (
                             <li 
                               key={link.label}
-                              style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                              style={link.label === "IHO" ? { color: "#FFBF00" } : undefined}
                             >
                               <NavLink href={link.url} isMobile>
                                 {link.label}
@@ -142,7 +142,7 @@ const HeaderSection = () => {
                   {mainNavLinks.map((link) => (
                     <li 
                       key={link.label}
-                      style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                      style={link.label === "IHO" ? { color: "#FFBF00" } : undefined}
                     >
                       <NavLink href={link.url} isMobile>
                         {link.label}
@@ -162,7 +162,7 @@ const HeaderSection = () => {
                   {moreNavLinks.map((link) => (
                     <li 
                       key={link.label}
-                      style={link.label === "ROADMAP 2025" ? { color: "#FFBF00" } : undefined}
+                      style={link.label === "IHO" ? { color: "#FFBF00" } : undefined}
                     >
                       <NavLink href={link.url} isMobile>
                         {link.label}
