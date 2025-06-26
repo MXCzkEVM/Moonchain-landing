@@ -7,8 +7,8 @@ export const linksConfig = {
   // Navigation links
   navLinks: [
     {
-      label: "ROADMAP 2025",
-      url: "https://doc.moonchain.com/docs/Resources/Roadmap",
+      label: "IHO",
+      url: "https://iho.moonchain.com",
       color: "#FFBF00"
     },
     {
