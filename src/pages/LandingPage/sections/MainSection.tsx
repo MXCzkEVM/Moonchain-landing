@@ -35,7 +35,7 @@ const MainSection = () => {
             <div className="animate__animated animate__fadeInUp delay-100 inline-block">
               <CustomButton variant="primary">
                 <a href={linksConfig.connect} target="_blank" rel="noreferrer">
-                  CONNECT
+                  GITHUB
                 </a>
               </CustomButton>
             </div>
