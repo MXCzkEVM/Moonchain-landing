@@ -115,7 +115,7 @@ const HeaderSection = () => {
           </CustomButton>
           <CustomButton variant="primary">
             <a href={linksConfig.connect} target="_blank" rel="noreferrer">
-              CONNECT
+              GITHUB
             </a>
           </CustomButton>
         </div>
