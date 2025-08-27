@@ -67,15 +67,34 @@ const BackgroundAnimation = () => {
               <Link to="/ecosystem">SEE DETAILS</Link>
             </Button>
           </div>
+          {/* Space Travel Effects */}
           <div
             className={cn(
-              "absolute inset-0 animated-moon rounded-full transition duration-700 pointer-events-none",
+              "absolute inset-0 space-tunnel transition duration-700 pointer-events-none",
               isHovered ? "opacity-0" : "opacity-100"
             )}
           />
           <div
             className={cn(
-              "absolute inset-0 bg-gradient-to-bl from-black from-0% via-black via-30% to-transparent to-75% rounded-full transition duration-700 pointer-events-none",
+              "absolute inset-0 shooting-stars transition duration-700 pointer-events-none",
+              isHovered ? "opacity-0" : "opacity-100"
+            )}
+          />
+          <div
+            className={cn(
+              "absolute inset-0 nebula-clouds transition duration-700 pointer-events-none",
+              isHovered ? "opacity-0" : "opacity-100"
+            )}
+          />
+          <div
+            className={cn(
+              "absolute inset-0 warp-lines transition duration-700 pointer-events-none",
+              isHovered ? "opacity-0" : "opacity-100"
+            )}
+          />
+          <div
+            className={cn(
+              "absolute inset-0 planetary-rings transition duration-700 pointer-events-none",
               isHovered ? "opacity-0" : "opacity-100"
             )}
           />
