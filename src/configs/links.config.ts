@@ -1,6 +1,6 @@
 export const linksConfig = {
   // CTAs
-  connect: "https://github.com/JDI-Group",
+  connect: "https://github.com/MXCzkEVM",
   docs: "https://doc.moonchain.com/",
   wallet: "https://mxc1usd.com",
 
