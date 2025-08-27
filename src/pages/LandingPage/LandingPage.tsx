@@ -1,7 +1,6 @@
 import BackgroundAnimation from "./components/BackgroundAnimation";
 import HeaderSection from "./sections/HeaderSection";
 import MainSection from "./sections/MainSection";
-import "./styles/space-travel.css";
 import "./styles/stars.css";
 
 const LandingPage = () => {
