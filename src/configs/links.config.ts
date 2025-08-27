@@ -1,39 +1,39 @@
 export const linksConfig = {
   // CTAs
   connect: "https://github.com/MXCzkEVM",
-  docs: "https://doc.moonchain.com/",
+  docs: "https://doc.mxc.com/",
   wallet: "https://mxc1usd.com",
 
   // Navigation links
   navLinks: [
     {
       label: "IHO",
-      url: "https://iho.moonchain.com",
+      url: "https://iho.mxc.com",
       color: "#FFBF00"
     },
     {
       label: "Swap",
-      url: "https://swap.moonchain.com/",
+      url: "https://swap.mxc.com/",
     },
     {
       label: "Swap Info",
-      url: "https://swap-info.moonchain.com/",
+      url: "https://swap-info.mxc.com/",
     },
     {
       label: "NFT",
-      url: "https://nft.moonchain.com/",
+      url: "https://nft.mxc.com/",
     },
     {
       label: "MNS",
-      url: "https://mns.moonchain.com/",
+      url: "https://mns.mxc.com/",
     },
     {
       label: "Bridge",
-      url: "https://jannowitz.moonchain.com/",
+      url: "https://jannowitz.mxc.com/",
     },
     {
       label: "Stable Coin",
-      url: "https://xsd.moonchain.com/",
+      url: "https://xsd.mxc.com/",
     },
     {
       label: "Mining",
@@ -45,15 +45,15 @@ export const linksConfig = {
     },
     {
       label: "Explorer",
-      url: "https://explorer.moonchain.com/",
+      url: "https://explorer.mxc.com/",
     },
     {
       label: "DepInscriptions",
-      url: "https://depinscriptions.moonchain.com/",
+      url: "https://depinscriptions.mxc.com/",
     },
     {
       label: "Airdrop",
-      url: "https://airdrop.moonchain.com/",
+      url: "https://airdrop.mxc.com/",
     },
   ],
 };

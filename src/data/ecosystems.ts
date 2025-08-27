@@ -392,7 +392,7 @@ export const ecosystems: Ecosystem[] = [
   },
   {
     title: "Exchange",
-    description: "Partner Moonchain Exchanges",
+    description: "Partner MXC Exchanges",
     items: [
       {
         name: "Bitget Global",

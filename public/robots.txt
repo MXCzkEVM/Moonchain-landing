@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.moonchain.com/sitemap.xml
+Sitemap: https://www.mxc.com/sitemap.xml
