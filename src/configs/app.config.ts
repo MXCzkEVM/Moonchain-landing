@@ -1,3 +1,3 @@
 export const appConfig = {
-  logoText: "MOONCHAIN",
+  logoText: "MXC",
 };
