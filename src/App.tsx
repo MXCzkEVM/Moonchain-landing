@@ -9,14 +9,12 @@ function App() {
   return (
     <div className="dark">
       <div className="w-full bg-yellow-500 text-black text-center py-3 px-4 font-semibold text-sm md:text-base z-50 relative">
-        For inquiries contact:{" "}
+        Please contact{" "}
         <a
-          href="https://gritbrokerage.com/inquiry"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:moonbase@mxc.org"
           className="underline font-bold hover:text-gray-800"
         >
-          gritbrokerage.com/inquiry
+          moonbase@mxc.org
         </a>
       </div>
       <Suspense
